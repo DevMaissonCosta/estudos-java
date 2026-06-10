@@ -7,13 +7,9 @@ Nesta pasta, vou organizar todos os meus códigos, exercícios de lógica e anot
 * **Saída de dados:** Usamos o comando `System.out.println()` para exibir mensagens na tela.
 -----
 ## Operadores aritméticos: 
-" + Adição = 5 + 2 = 7 "
 
-" - Subtração = 5 - 2 = 3"
-
-" * Multiplicação = 5 * 2 = 10 "
-
-" / Divisão = 5 / 2 = 2.5 "
-
-" % Resto = 5 / 2 = 1"
-
+- `+` **Adição** -> 5 + 2 = 7
+- `-` **Subtração** -> 5 - 2 = 3
+- `*` **Multiplicação** -> 5 * 2 = 10
+- `/` **Divisão** -> 5 / 2 = 2.5
+- `%` **Resto** -> 5 / 2 = 1
