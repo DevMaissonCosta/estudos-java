@@ -73,3 +73,30 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 - **int x = 4;**
 - **x += 2;   // x = x + 2**
 - **System.out.println(x);**
+------
+
+
+### Classe Math -> classe matemática
+
+- **Math é uma classe que entrega algo pronto, sem eu precisar criar ou contruir**
+- **Math.abs(-10)        // valor absoluto → 10**
+- **Math.pow(2, 8)       // potência → 256.0**
+- **Math.sqrt(25)        // raiz quadrada → 5.0** 
+- **Math.cbrt(27)        // raiz cúbica → 3.0**
+- **Math.max(10, 20)     // maior valor → 20**
+- **Math.min(10, 20)     // menor valor → 10** 
+- **Math.round(4.7)      // arredonda → 5** 
+- **Math.floor(4.9)      // arredonda pra baixo → 4.0** 
+- **Math.ceil(4.1)       // arredonda pra cima → 5.0**
+- **Math.random()        // número aleatório entre 0.0 e 1.0** 
+- **Math.log(Math.E)     // logaritmo natural → 1.0**
+- **Math.PI              // constante π → 3.14159...**
+- **Math.E               // constante de Euler → 2.71828...**
+
+-----
+
+### Arredondamentos
+- **Math.round(4.5)   // → 5  (arredonda pro mais próximo)**
+- **Math.floor(4.5)   // → 4.0 (sempre pra baixo)**
+- **Math.ceil(4.5)    // → 5.0 (sempre pra cima)**
+- **Math.random // cria um valor aleatorio entre 0 e 1**
