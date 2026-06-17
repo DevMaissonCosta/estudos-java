@@ -21,11 +21,13 @@ public class Operadores {
          */
 
         //OPERADORES DE ATRIBUIÇÃO
-        int x = 4;
-        x += 2;   // x = x + 2
-         System.out.println(x);
+//        int x = 4;
+//        x += 2;   // x = x + 2
+//         System.out.println(x);
 
+        //CLASSES MATH
 
+        System.out.println(Math.PI);
 
     }
 }
