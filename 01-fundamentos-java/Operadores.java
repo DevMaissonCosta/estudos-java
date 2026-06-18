@@ -27,7 +27,16 @@ public class Operadores {
 
         //CLASSES MATH
 
-        System.out.println(Math.PI);
+//        System.out.println(Math.PI);
+
+        // OPERADORES TERNARIOS ? :
+
+        int n1, n2, r;
+        n1 = 4;
+        n2 = 8;
+        r = (n1>n2) ? 0:1; // se n1 for maior que n2, r recebe 0 senao 1
+        System.out.println(r);
+
 
     }
 }
