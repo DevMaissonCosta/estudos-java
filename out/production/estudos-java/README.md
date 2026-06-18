@@ -92,3 +92,11 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 - **Math.log(Math.E)     // logaritmo natural → 1.0**
 - **Math.PI              // constante π → 3.14159...**
 - **Math.E               // constante de Euler → 2.71828...**
+
+-----
+
+### Arredondamentos
+- **Math.round(4.5)   // → 5  (arredonda pro mais próximo)**
+- **Math.floor(4.5)   // → 4.0 (sempre pra baixo)**
+- **Math.ceil(4.5)    // → 5.0 (sempre pra cima)**
+- **Math.random // cria um valor aleatorio entre 0 e 1**
