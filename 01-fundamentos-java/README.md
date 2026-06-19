@@ -100,3 +100,6 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 - **Math.floor(4.5)   // → 4.0 (sempre pra baixo)**
 - **Math.ceil(4.5)    // → 5.0 (sempre pra cima)**
 - **Math.random // cria um valor aleatorio entre 0 e 1**
+
+-----
+
