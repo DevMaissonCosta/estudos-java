@@ -100,3 +100,19 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 - **Math.floor(4.5)   // → 4.0 (sempre pra baixo)**
 - **Math.ceil(4.5)    // → 5.0 (sempre pra cima)**
 - **Math.random // cria um valor aleatorio entre 0 e 1**
+
+-----
+### Estrutura Condiçionais
+- É uma condição que eu passo para o meu bloco.
+- -----
+- Simples, apenas uma condição -> if (m>9){
+system.out.println("Parabens"); // executa verdadeiro
+} 
+-----
+- Composta, duas condições -> if (i>=18) {
+  System.out.println("Maior");
+  }else {
+  System.out.println("De menor");
+  }
+  
+
