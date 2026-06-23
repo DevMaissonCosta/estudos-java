@@ -105,14 +105,31 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 ### Estrutura Condiçionais
 - É uma condição que eu passo para o meu bloco.
 - -----
-- Simples, apenas uma condição -> if (m>9){
+### simples 
+apenas uma condição -> if (m>9){
 system.out.println("Parabens"); // executa verdadeiro
 } 
 -----
-- Composta, duas condições -> if (i>=18) {
+### Composta
+duas condições -> if (i>=18) {
   System.out.println("Maior");
   }else {
   System.out.println("De menor");
   }
-  
 
+-----
+
+### Composta Encadeadas
+uma dentro da outra ->   int idade = ano - nascimento; if (idade<16) {
+System.out.println("não pode votar " + idade + " anos");
+}else {
+if ((idade >= 16 && idade < 18) || (idade > 70)){
+System.out.println("A votacao é opcional  " + idade + " anos");
+} else
+System.out.println("É de total obrigação votar " + idade + " anos");
+}
+}
+}
+
+-----
+### Condição de Múltipla Escolha
