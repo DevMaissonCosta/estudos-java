@@ -11,11 +11,13 @@ public class CondicionaisComposta2 {
         int ano = teclado.nextInt();
 
         int idade = ano - nascimento;
-        if (idade<16) {
+        if (idade < 16) {
             System.out.println("não pode votar " + idade + " anos");
-        }else if (idade >= 16 && idade < 18 || idade > 70){
-            System.out.println("A votacao é opcional  " + idade + " anos");
-        } else
-            System.out.println("É de total obrigação votar" + idade + " anos");
+        } else {
+            if ((idade >= 16 && idade < 18) || (idade > 70)) {
+                System.out.println("A votacao é opcional  " + idade + " anos");
+            } else
+                System.out.println("É de total obrigação votar " + idade + " anos");
+        }
     }
 }
