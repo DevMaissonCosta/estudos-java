@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
-
 public class EstruturasDeRepeticao {
+    public static void main(String[] args) {
+        int cc = 1;
+        while (cc < 4) {
+            System.out.println("Cambalhota");
+
+            cc++;
+        }
+    }
 }

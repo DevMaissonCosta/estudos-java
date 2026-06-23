@@ -152,3 +152,17 @@ System.out.println("É de total obrigação votar " + idade + " anos");
 - `default` — executado quando nenhum case combina
 
 }
+
+----
+### ESTRUTURAS DE REPETIÇÃO
+
+São estruturas que repetem um bloco de código enquanto uma condição for verdadeira.
+
+``` while
+// while -> Repete enquanto a condição for verdadeira. Ideal quando não se sabe quantas vezes vai repetir.
+int i = 0;
+while (i < 5) {
+    System.out.println("Valor: " + i);
+    i++;
+}
+```

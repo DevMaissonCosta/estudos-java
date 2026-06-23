@@ -105,17 +105,16 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 ### Estrutura Condiçionais
 - É uma condição que eu passo para o meu bloco.
 - -----
-### simples 
-apenas uma condição -> if (m>9){
+- Simples, apenas uma condição -> if (m>9){
 system.out.println("Parabens"); // executa verdadeiro
 } 
 -----
 ### Composta
 duas condições -> if (i>=18) {
-  System.out.println("Maior");
-  }else {
-  System.out.println("De menor");
-  }
+System.out.println("Maior");
+}else {
+System.out.println("De menor");
+}
 
 -----
 
@@ -134,3 +133,36 @@ System.out.println("É de total obrigação votar " + idade + " anos");
 
 -----
 ### Condição de Múltipla Escolha
+
+É como um if/else, porém deixa o código mais legível quando há várias opções fixas.
+
+``` java
+ switch (opcaoMenu){
+    case } 1: System.out.println("Novo jogo");      break;
+    case 2: System.out.println("Carregar");       break;
+    case 3: System.out.println("Configurações"); break;
+    case 4: System.out.println("Sair");           break;
+    default: System.out.println("Opção inválida");
+    }
+```
+
+- `switch` — avalia a variável
+- `case` — define cada opção possível
+- `break` — para a execução (sem ele ocorre fall-through)
+- `default` — executado quando nenhum case combina
+
+}
+
+----
+### ESTRUTURAS DE REPETIÇÃO
+
+São estruturas que repetem um bloco de código enquanto uma condição for verdadeira.
+
+``` while
+// while -> Repete enquanto a condição for verdadeira. Ideal quando não se sabe quantas vezes vai repetir.
+int i = 0;
+while (i < 5) {
+    System.out.println("Valor: " + i);
+    i++;
+}
+```
