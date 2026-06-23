@@ -120,6 +120,7 @@ duas condições -> if (i>=18) {
 -----
 
 ### Composta Encadeadas
+
 uma dentro da outra ->   int idade = ano - nascimento; if (idade<16) {
 System.out.println("não pode votar " + idade + " anos");
 }else {

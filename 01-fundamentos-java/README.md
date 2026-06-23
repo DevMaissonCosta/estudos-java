@@ -109,10 +109,46 @@ Código prático desenvolvido para testar e validar o comportamento dos operador
 system.out.println("Parabens"); // executa verdadeiro
 } 
 -----
-- Composta, duas condições -> if (i>=18) {
-  System.out.println("Maior");
-  }else {
-  System.out.println("De menor");
-  }
-  
+### Composta
+duas condições -> if (i>=18) {
+System.out.println("Maior");
+}else {
+System.out.println("De menor");
+}
 
+-----
+
+### Composta Encadeadas
+
+uma dentro da outra ->   int idade = ano - nascimento; if (idade<16) {
+System.out.println("não pode votar " + idade + " anos");
+}else {
+if ((idade >= 16 && idade < 18) || (idade > 70)){
+System.out.println("A votacao é opcional  " + idade + " anos");
+} else
+System.out.println("É de total obrigação votar " + idade + " anos");
+}
+}
+}
+
+-----
+### Condição de Múltipla Escolha
+
+É como um if/else, porém deixa o código mais legível quando há várias opções fixas.
+
+``` java
+ switch (opcaoMenu){
+    case } 1: System.out.println("Novo jogo");      break;
+    case 2: System.out.println("Carregar");       break;
+    case 3: System.out.println("Configurações"); break;
+    case 4: System.out.println("Sair");           break;
+    default: System.out.println("Opção inválida");
+    }
+```
+
+- `switch` — avalia a variável
+- `case` — define cada opção possível
+- `break` — para a execução (sem ele ocorre fall-through)
+- `default` — executado quando nenhum case combina
+
+}

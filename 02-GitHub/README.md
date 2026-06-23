@@ -1,4 +1,4 @@
-# 🐙 Meus Estudos de Git & GitHub
+git s# 🐙 Meus Estudos de Git & GitHub
 
 Este é o meu guia rápido de sobrevivência para manter o ambiente limpo, organizar meus códigos e subir meus estudos sem erros para a nuvem.
 
