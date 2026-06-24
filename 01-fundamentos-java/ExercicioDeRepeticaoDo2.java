@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class ExercicioDeRepeticaoDo2 {
+    public static void main(String[] args) {
+        int n, s = 0;
+        String resp;
+        Scanner teclado = new Scanner(System.in);
+    }
+}
