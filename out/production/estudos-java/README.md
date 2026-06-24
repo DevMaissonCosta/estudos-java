@@ -165,4 +165,9 @@ while (i < 5) {
     System.out.println("Valor: " + i);
     i++;
 }
+
 ```
+---- > exemplo em fluxograma
+![img.png](img.png)
+
+``` do
