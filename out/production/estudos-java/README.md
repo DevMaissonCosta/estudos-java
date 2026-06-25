@@ -158,8 +158,10 @@ System.out.println("É de total obrigação votar " + idade + " anos");
 
 São estruturas que repetem um bloco de código enquanto uma condição for verdadeira.
 
-``` while
-// while -> Repete enquanto a condição for verdadeira. Ideal quando não se sabe quantas vezes vai repetir.
+ 
+### while
+```
+-> Repete enquanto a condição for verdadeira. Ideal quando não se sabe quantas vezes vai repetir.
 int i = 0;
 while (i < 5) {
     System.out.println("Valor: " + i);
@@ -170,4 +172,12 @@ while (i < 5) {
 ---- > exemplo em fluxograma
 ![img.png](img.png)
 
-``` do
+-----
+ ### do / while
+```
+-> do sig: faça
+diferente do while que caso seja falso o loop, ele não sera executado.
+no DO é o contrario, mesmo sendo falso, ele executa pelo menos uma vez a condição.
+-> Esse comportamento é do/whileútil quando você deseja que algo aconteça pelo menos uma vez, como exibir uma mensagem ou solicitar uma entrada do usuário.
+```
+![img_1.png](img_1.png)
