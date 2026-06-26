@@ -3,15 +3,15 @@ public class EstruturasDeRepeticao {
         int cc = 0;
         while (cc < 10) {
             cc++;
+
             if (cc == 5 || cc == 7 || cc == 10){
-                continue; // vai interromper essas alteraçoes a cima no lopp.
+                continue; // vai interromper essas alteraçoes a cima no loop.
             }
             if (cc == 9){
-                break; // ao nchegar na numeração 9, a operacao sera parada.
+                break; // ao chegar na numeração 9, a operacao sera parada.
             }
 
             System.out.println("Cambalhota" + cc);
-
         }
     }
 }
