@@ -11,7 +11,7 @@ public class Planobasico {
         double conta = 50.0;
 
         if (minutos > 100){
-            conta = conta + (minutos - 100) * 2.0;
+            conta += (minutos - 100) * 2.0; // aqui eu usei  "+=" são atribuição cumulativas.
         }
         System.out.printf("Valor a ser pago R$ %.2f%n", conta);
         sc.close();
