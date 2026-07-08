@@ -15,7 +15,8 @@ public class saidaDeDados {
         System.out.println(a);
         System.out.printf("%.2f%n", b);
         System.out.println(c);
-        System.out.println(d);
+        System.out.println(true);
+
 
     }
 }
