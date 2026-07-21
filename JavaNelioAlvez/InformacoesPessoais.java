@@ -7,6 +7,7 @@ public class InformacoesPessoais {
     static int dobrar (int numero){
         int resultado = numero * 2;
         return resultado;
+
     }
 
 }
