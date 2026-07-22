@@ -1,4 +1,4 @@
-package POO;
+package POO.appplication;
 
 import POO.entities.Triangulo;
 
