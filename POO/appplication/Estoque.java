@@ -20,7 +20,7 @@ public class Estoque {
         System.out.print("Quantidade de itens: ");
         produts.quantidade = sc.nextInt();
 
-        System.out.println(produts.nome + ", " + produts.price + ", " + produts.quantidade);
+        System.out.println(produts);
 
 
     sc.close();
