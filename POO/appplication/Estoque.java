@@ -20,7 +20,25 @@ public class Estoque {
         System.out.print("Quantidade de itens: ");
         produts.quantidade = sc.nextInt();
 
-        System.out.println(produts);
+
+        System.out.println();
+        System.out.println("Product data: " + produts);
+
+        System.out.println();
+        System.out.println("Enter the number of products to be added in stock: ");
+        int quantidade = sc.nextInt();
+        produts.addProducts(quantidade);
+
+        System.out.println();
+        System.out.println("Updated data: " + produts);
+
+        System.out.println();
+        System.out.println("Enter the number of products to be removed do stock: ");
+        quantidade = sc.nextInt();
+        produts.removeProducts(quantidade);
+
+        System.out.println();
+        System.out.println("Updated data: " + produts);
 
 
     sc.close();
