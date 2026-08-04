@@ -11,7 +11,7 @@ public class EntendendoFor {
             int x = sc.nextInt();
             soma = soma + x;
         }
-        System.out.println(soma );
+        System.out.println();
         sc.close();
     }
 }
